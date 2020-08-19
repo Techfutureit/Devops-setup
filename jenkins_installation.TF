@@ -40,7 +40,7 @@ You can install jenkins using the rpm or by setting up the repo. We will set up 
 1.Get the latest version of jenkins from https://pkg.jenkins.io/redhat-stable/ and install
 
 	yum -y install wget
-	sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat	-stable/jenkins.repo
+	sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 	sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 	yum -y install jenkins
 Start Jenkins
@@ -66,7 +66,7 @@ Install Jenkins in Debian OS
 
 	wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 
-	sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/	apt/sources.list.d/jenkins.list'
+	sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 
 	apt-get update
 
