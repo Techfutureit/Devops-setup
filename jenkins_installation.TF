@@ -57,6 +57,12 @@ By default jenkins runs at port 8080, You can access jenkins at
 http://YOUR-SERVER-PUBLIC-IP:8080
 
 Install Jenkins in Debian OS
+	
+	apt-get update
+
+	apt install openjdk-8-jre-headless
+
+	java -version
 
 	wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 
