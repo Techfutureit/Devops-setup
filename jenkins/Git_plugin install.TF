@@ -4,19 +4,19 @@ Git is one of the most popular tools for version control system. you can pull co
 
 Prerequisites
 
-Jenkins server
-Install Git on Jenkins server
+ 1.    Jenkins server
+ 2.    Install Git on Jenkins server
 
-Install git packages on jenkins server
+1.  Install git packages on jenkins server
 
-yum install git -y
-apt-get install git -y
+    yum install git -y
+    apt-get install git -y
 
 Setup Git on jenkins console
-Install git plugin without restart
+2.  Install git plugin without restart
 
-Manage Jenkins > Jenkins Plugins > available > github
+    Manage Jenkins > Jenkins Plugins > available > github
 
-Configure git path
+3.  Configure git path
 
-Manage Jenkins > Global Tool Configuration > git 
+    Manage Jenkins > Global Tool Configuration > git 
