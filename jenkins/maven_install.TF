@@ -4,10 +4,10 @@ Maven is a code build tool which used to convert your code to an artifact. this 
 
 Prerequisites
 
-Jenkins server
+	Jenkins server
 
-Install Maven on Jenkins
-Download maven packages https://maven.apache.org/download.cgi onto Jenkins server. In this case, I am using /opt/maven as my installation directory
+	1.	Install Maven on Jenkins
+	Download maven packages https://maven.apache.org/download.cgi onto Jenkins server. In this case, I am using /opt/maven as my installation directory
 	Link : https://maven.apache.org/download.cgi
  	# Creating maven directory under /opt
  	mkdir /opt/maven
@@ -24,16 +24,16 @@ PATH=<Existing_PATH>:$M2_HOME:$M2
 Checkpoint
 logoff and login to check maven version
 
-mvn --version
+	mvn --version
 
 So far we have completed the installation of maven software to support maven plugin on the jenkins console. Let's jump onto Jenkins to complete the remaining steps.
 
-Setup maven on Jenkins console
+	2.	Setup maven on Jenkins console
 
-Install maven plugin without restart
-Manage Jenkins > Jenkins Plugins > available > Maven Invoker
-Manage Jenkins > Jenkins Plugins > available > Maven Integration
+	Install maven plugin without restart
+	Manage Jenkins > Jenkins Plugins > available > Maven Invoker
+	Manage Jenkins > Jenkins Plugins > available > Maven Integration
 
-Configure maven path
+	3.	Configure maven path
 
-Manage Jenkins > Global Tool Configuration > Maven
+	Manage Jenkins > Global Tool Configuration > Maven
